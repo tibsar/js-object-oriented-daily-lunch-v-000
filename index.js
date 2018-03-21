@@ -64,6 +64,10 @@ class Employer {
     this.id = employerId++; 
     store.employers.push(this); 
   }
+  
+  employees(){
+    
+  }
 }
 
 let customerId = 0; 
