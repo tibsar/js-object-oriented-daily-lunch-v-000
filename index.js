@@ -70,6 +70,10 @@ class Employer {
       return customer.employerId === this.id; 
     })
   }
+  
+  deliveries(){
+    
+  }
 }
 
 let customerId = 0; 
