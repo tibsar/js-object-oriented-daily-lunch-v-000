@@ -72,11 +72,11 @@ class Employer {
   }
   
   deliveries(){
-    return this.employees().map(employee => {
+    let allDeliveries =  this.employees().map(employee => {
       return employee.deliveries; 
     }); 
     
-    
+    return allDeliveries.flatten()
   }
 }
 
