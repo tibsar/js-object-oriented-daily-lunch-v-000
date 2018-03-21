@@ -76,7 +76,7 @@ class Employer {
       return employee.deliveries; 
     }); 
     
-    return allDeliveries.flatten()
+    return allDeliveries.flatten(); 
   }
 }
 
