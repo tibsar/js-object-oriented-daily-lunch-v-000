@@ -67,7 +67,7 @@ class Employer {
   
   employees(){
     return this.store.customers.filter(customer => {
-      return customer.id === this.id; 
+      return customer.employerId === this.id; 
     })
   }
 }
