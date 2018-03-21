@@ -74,7 +74,9 @@ class Employer {
   deliveries(){
     return this.employees().map(employee => {
       return employee.deliveries; 
-    })
+    }); 
+    
+    
   }
 }
 
